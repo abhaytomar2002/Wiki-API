@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 //TODO
 
-mongoose.connect("mongodb+srv://abhaytomar2002:yDXDS15mg58zBTvG@cluster0.rvkou.mongodb.net/wikiDB?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://<Username>:<password>@cluster0.rvkou.mongodb.net/wikiDB?retryWrites=true&w=majority");
 
 const articleSchema = new mongoose.Schema({
     title: {
